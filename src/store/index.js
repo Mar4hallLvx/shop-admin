@@ -20,7 +20,7 @@ const store = createStore({
         }
     },
     actions: {
-        //登录
+        //登录1
         login({ commit }, { username, password }) {
             return new Promise((resolve, reject) => {
                 login(username, password).then(res => {
